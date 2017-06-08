@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: 5114b5799b18f7d45a94b03417c9f7b8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: gun
+    100002: ik_footL
+    100004: ik_footR
+    100006: IKarmL
+    100008: IKarmL.001
+    100010: IKarmL.002
+    100012: IKarmR
+    100014: IKarmR.001
+    100016: IKarmR.002
+    100018: metarig
+    100020: metarig|chest
+    100022: metarig|f_index.01.L
+    100024: metarig|f_index.01.R
+    100026: metarig|f_index.02.L
+    100028: metarig|f_index.02.R
+    100030: metarig|foot.L
+    100032: metarig|foot.L.001
+    100034: metarig|foot.R
+    100036: metarig|foot.R.001
+    100038: metarig|forearm.L
+    100040: metarig|forearm.R
+    100042: metarig|hand.L
+    100044: metarig|hand.R
+    100046: metarig|head
+    100048: metarig|hips
+    100050: metarig|neck
+    100052: metarig|palm.01.L
+    100054: metarig|palm.01.R
+    100056: metarig|shin.L
+    100058: metarig|shin.R
+    100060: metarig|shoulder.L
+    100062: metarig|shoulder.R
+    100064: metarig|spine
+    100066: metarig|thigh.L
+    100068: metarig|thigh.R
+    100070: metarig|thumb.01.L
+    100072: metarig|thumb.01.R
+    100074: metarig|thumb.02.L
+    100076: metarig|thumb.02.R
+    100078: metarig|upper_arm.L
+    100080: metarig|upper_arm.R
+    100082: rifle
+    100084: root
+    100086: //RootNode
+    100088: soldierMesh
+    100090: grenade
+    400000: gun
+    400002: ik_footL
+    400004: ik_footR
+    400006: IKarmL
+    400008: IKarmL.001
+    400010: IKarmL.002
+    400012: IKarmR
+    400014: IKarmR.001
+    400016: IKarmR.002
+    400018: metarig
+    400020: metarig|chest
+    400022: metarig|f_index.01.L
+    400024: metarig|f_index.01.R
+    400026: metarig|f_index.02.L
+    400028: metarig|f_index.02.R
+    400030: metarig|foot.L
+    400032: metarig|foot.L.001
+    400034: metarig|foot.R
+    400036: metarig|foot.R.001
+    400038: metarig|forearm.L
+    400040: metarig|forearm.R
+    400042: metarig|hand.L
+    400044: metarig|hand.R
+    400046: metarig|head
+    400048: metarig|hips
+    400050: metarig|neck
+    400052: metarig|palm.01.L
+    400054: metarig|palm.01.R
+    400056: metarig|shin.L
+    400058: metarig|shin.R
+    400060: metarig|shoulder.L
+    400062: metarig|shoulder.R
+    400064: metarig|spine
+    400066: metarig|thigh.L
+    400068: metarig|thigh.R
+    400070: metarig|thumb.01.L
+    400072: metarig|thumb.01.R
+    400074: metarig|thumb.02.L
+    400076: metarig|thumb.02.R
+    400078: metarig|upper_arm.L
+    400080: metarig|upper_arm.R
+    400082: rifle
+    400084: root
+    400086: //RootNode
+    400088: soldierMesh
+    400090: grenade
+    2300000: gun
+    2300002: rifle
+    2300004: grenade
+    2300006: //RootNode
+    3300000: gun
+    3300002: rifle
+    3300004: grenade
+    3300006: //RootNode
+    4300000: soldierMesh
+    4300002: rifle
+    4300004: gun
+    4300006: grenade
+    7400000: runFW
+    7400002: runBack
+    7400004: strafeR
+    7400006: strafeL
+    7400008: jump
+    7400010: aimGun
+    7400012: shootGun
+    7400014: aimRifle
+    7400016: shootRifle
+    7400018: aimGrenade
+    7400020: throwGrenade
+    9500000: //RootNode
+    13700000: soldierMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: runFW
+      takeName: Scene
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Feets
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: -.0136102028
+            inSlope: -1.04270351
+            outSlope: -1.04270351
+            tangentMode: 0
+          - time: .398897022
+            value: 2.49455595
+            inSlope: 1.77094233
+            outSlope: 1.77094233
+            tangentMode: 0
+          - time: .53576237
+            value: -.024053514
+            inSlope: -7.34333754
+            outSlope: -7.34333754
+            tangentMode: 0
+          - time: .87457031
+            value: 2.4699738
+            inSlope: -1.27237344
+            outSlope: -1.27237344
+            tangentMode: 0
+          - time: .948511124
+            value: -.0261091962
+            inSlope: -2.18876743
+            outSlope: -2.18876743
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gun
+        weight: 0
+      - path: metarig
+        weight: 1
+      - path: metarig/IKarmL.001
+        weight: 0
+      - path: metarig/IKarmL.002
+        weight: 0
+      - path: metarig/IKarmR.001
+        weight: 0
+      - path: metarig/IKarmR.002
+        weight: 0
+      - path: metarig/metarig|hips
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck/metarig|head
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L/metarig|f_index.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L/metarig|thumb.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R/metarig|f_index.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R/metarig|thumb.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L/metarig|foot.L.001
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R/metarig|foot.R.001
+        weight: 1
+      - path: rifle
+        weight: 0
+      - path: root
+        weight: 0
+      - path: root/ik_footL
+        weight: 0
+      - path: root/ik_footR
+        weight: 0
+      - path: root/IKarmL
+        weight: 0
+      - path: root/IKarmR
+        weight: 0
+      - path: soldierMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: runBack
+      takeName: Scene
+      firstFrame: 30
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Feets
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: .0102489013
+            value: .0522192717
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .330092728
+            value: 1.4759295
+            inSlope: 16.871666
+            outSlope: 16.871666
+            tangentMode: 0
+          - time: .465700388
+            value: 2.16187978
+            inSlope: -4.26878786
+            outSlope: -4.26878786
+            tangentMode: 0
+          - time: .702766836
+            value: -.0412078872
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .916519523
+            value: 2.06074548
+            inSlope: -21.411932
+            outSlope: -21.411932
+            tangentMode: 0
+          - time: .997101724
+            value: -.00972753763
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grenade
+        weight: 0
+      - path: gun
+        weight: 0
+      - path: metarig
+        weight: 1
+      - path: metarig/IKarmL.001
+        weight: 0
+      - path: metarig/IKarmL.002
+        weight: 0
+      - path: metarig/IKarmR.001
+        weight: 0
+      - path: metarig/IKarmR.002
+        weight: 0
+      - path: metarig/metarig|hips
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck/metarig|head
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L/metarig|f_index.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L/metarig|thumb.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R/metarig|f_index.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R/metarig|thumb.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L/metarig|foot.L.001
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R/metarig|foot.R.001
+        weight: 1
+      - path: rifle
+        weight: 0
+      - path: root
+        weight: 0
+      - path: root/ik_footL
+        weight: 0
+      - path: root/ik_footR
+        weight: 0
+      - path: root/IKarmL
+        weight: 0
+      - path: root/IKarmR
+        weight: 0
+      - path: soldierMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: strafeR
+      takeName: Scene
+      firstFrame: 60
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Feets
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: .0104438215
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .375137269
+            value: .0117420554
+            inSlope: .176554799
+            outSlope: .176554799
+            tangentMode: 0
+          - time: .528855979
+            value: 2.44386435
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .723279655
+            value: .0104439259
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .917696476
+            value: 2.31853795
+            inSlope: -1.34296739
+            outSlope: -1.34296739
+            tangentMode: 0
+          - time: 1
+            value: .0104438215
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grenade
+        weight: 0
+      - path: gun
+        weight: 0
+      - path: metarig
+        weight: 1
+      - path: metarig/IKarmL.001
+        weight: 0
+      - path: metarig/IKarmL.002
+        weight: 0
+      - path: metarig/IKarmR.001
+        weight: 0
+      - path: metarig/IKarmR.002
+        weight: 0
+      - path: metarig/metarig|hips
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck/metarig|head
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L/metarig|f_index.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L/metarig|thumb.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R/metarig|f_index.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R/metarig|thumb.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L/metarig|foot.L.001
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R/metarig|foot.R.001
+        weight: 1
+      - path: rifle
+        weight: 0
+      - path: root
+        weight: 0
+      - path: root/ik_footL
+        weight: 0
+      - path: root/ik_footR
+        weight: 0
+      - path: root/IKarmL
+        weight: 0
+      - path: root/IKarmR
+        weight: 0
+      - path: soldierMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: strafeL
+      takeName: Scene
+      firstFrame: 90
+      lastFrame: 108
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Feets
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: -.0208877325
+            inSlope: .380045474
+            outSlope: .380045474
+            tangentMode: 0
+          - time: .264927417
+            value: .174844444
+            inSlope: 2.40255952
+            outSlope: 2.40255952
+            tangentMode: 0
+          - time: .474413216
+            value: 2.21410823
+            inSlope: .0361981802
+            outSlope: .0361981802
+            tangentMode: 0
+          - time: .614471436
+            value: -.0104438663
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .86886853
+            value: 2.46475196
+            inSlope: -2.84673977
+            outSlope: -2.84673977
+            tangentMode: 0
+          - time: 1.00292826
+            value: -.0104438663
+            inSlope: -3.05141187
+            outSlope: -3.05141187
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grenade
+        weight: 0
+      - path: gun
+        weight: 0
+      - path: metarig
+        weight: 1
+      - path: metarig/IKarmL.001
+        weight: 0
+      - path: metarig/IKarmL.002
+        weight: 0
+      - path: metarig/IKarmR.001
+        weight: 0
+      - path: metarig/IKarmR.002
+        weight: 0
+      - path: metarig/metarig|hips
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck/metarig|head
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L/metarig|f_index.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L/metarig|thumb.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R/metarig|f_index.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R/metarig|thumb.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L/metarig|foot.L.001
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R/metarig|foot.R.001
+        weight: 1
+      - path: rifle
+        weight: 0
+      - path: root
+        weight: 0
+      - path: root/ik_footL
+        weight: 0
+      - path: root/ik_footR
+        weight: 0
+      - path: root/IKarmL
+        weight: 0
+      - path: root/IKarmR
+        weight: 0
+      - path: soldierMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: Scene
+      firstFrame: 120
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grenade
+        weight: 0
+      - path: gun
+        weight: 0
+      - path: metarig
+        weight: 1
+      - path: metarig/IKarmL.001
+        weight: 0
+      - path: metarig/IKarmL.002
+        weight: 0
+      - path: metarig/IKarmR.001
+        weight: 0
+      - path: metarig/IKarmR.002
+        weight: 0
+      - path: metarig/metarig|hips
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck/metarig|head
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L/metarig|f_index.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L/metarig|thumb.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R/metarig|f_index.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R/metarig|thumb.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L/metarig|foot.L.001
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R/metarig|foot.R.001
+        weight: 1
+      - path: rifle
+        weight: 0
+      - path: root
+        weight: 0
+      - path: root/ik_footL
+        weight: 0
+      - path: root/ik_footR
+        weight: 0
+      - path: root/IKarmL
+        weight: 0
+      - path: root/IKarmR
+        weight: 0
+      - path: soldierMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: aimGun
+      takeName: Scene
+      firstFrame: 150
+      lastFrame: 150.100006
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grenade
+        weight: 0
+      - path: gun
+        weight: 0
+      - path: metarig
+        weight: 1
+      - path: metarig/IKarmL.001
+        weight: 0
+      - path: metarig/IKarmL.002
+        weight: 0
+      - path: metarig/IKarmR.001
+        weight: 0
+      - path: metarig/IKarmR.002
+        weight: 0
+      - path: metarig/metarig|hips
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck/metarig|head
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L/metarig|f_index.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L/metarig|thumb.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R/metarig|f_index.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R/metarig|thumb.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L/metarig|foot.L.001
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R/metarig|foot.R.001
+        weight: 1
+      - path: rifle
+        weight: 0
+      - path: root
+        weight: 0
+      - path: root/ik_footL
+        weight: 0
+      - path: root/ik_footR
+        weight: 0
+      - path: root/IKarmL
+        weight: 0
+      - path: root/IKarmR
+        weight: 0
+      - path: soldierMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: shootGun
+      takeName: Scene
+      firstFrame: 167
+      lastFrame: 171
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grenade
+        weight: 0
+      - path: gun
+        weight: 0
+      - path: metarig
+        weight: 1
+      - path: metarig/IKarmL.001
+        weight: 0
+      - path: metarig/IKarmL.002
+        weight: 0
+      - path: metarig/IKarmR.001
+        weight: 0
+      - path: metarig/IKarmR.002
+        weight: 0
+      - path: metarig/metarig|hips
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck/metarig|head
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L/metarig|f_index.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L/metarig|thumb.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R/metarig|f_index.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R/metarig|thumb.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L/metarig|foot.L.001
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R/metarig|foot.R.001
+        weight: 1
+      - path: rifle
+        weight: 0
+      - path: root
+        weight: 0
+      - path: root/ik_footL
+        weight: 0
+      - path: root/ik_footR
+        weight: 0
+      - path: root/IKarmL
+        weight: 0
+      - path: root/IKarmR
+        weight: 0
+      - path: soldierMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: aimRifle
+      takeName: Scene
+      firstFrame: 194
+      lastFrame: 194.100006
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grenade
+        weight: 0
+      - path: gun
+        weight: 0
+      - path: metarig
+        weight: 1
+      - path: metarig/IKarmL.001
+        weight: 0
+      - path: metarig/IKarmL.002
+        weight: 0
+      - path: metarig/IKarmR.001
+        weight: 0
+      - path: metarig/IKarmR.002
+        weight: 0
+      - path: metarig/metarig|hips
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck/metarig|head
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L/metarig|f_index.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L/metarig|thumb.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R/metarig|f_index.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R/metarig|thumb.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L/metarig|foot.L.001
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R/metarig|foot.R.001
+        weight: 1
+      - path: rifle
+        weight: 0
+      - path: root
+        weight: 0
+      - path: root/ik_footL
+        weight: 0
+      - path: root/ik_footR
+        weight: 0
+      - path: root/IKarmL
+        weight: 0
+      - path: root/IKarmR
+        weight: 0
+      - path: soldierMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: shootRifle
+      takeName: Scene
+      firstFrame: 196
+      lastFrame: 206
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grenade
+        weight: 0
+      - path: gun
+        weight: 0
+      - path: metarig
+        weight: 1
+      - path: metarig/IKarmL.001
+        weight: 0
+      - path: metarig/IKarmL.002
+        weight: 0
+      - path: metarig/IKarmR.001
+        weight: 0
+      - path: metarig/IKarmR.002
+        weight: 0
+      - path: metarig/metarig|hips
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck/metarig|head
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L/metarig|f_index.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L/metarig|thumb.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R/metarig|f_index.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R/metarig|thumb.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L/metarig|foot.L.001
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R/metarig|foot.R.001
+        weight: 1
+      - path: rifle
+        weight: 0
+      - path: root
+        weight: 0
+      - path: root/ik_footL
+        weight: 0
+      - path: root/ik_footR
+        weight: 0
+      - path: root/IKarmL
+        weight: 0
+      - path: root/IKarmR
+        weight: 0
+      - path: soldierMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: aimGrenade
+      takeName: Scene
+      firstFrame: 211
+      lastFrame: 211.100006
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grenade
+        weight: 0
+      - path: gun
+        weight: 0
+      - path: metarig
+        weight: 1
+      - path: metarig/IKarmL.001
+        weight: 0
+      - path: metarig/IKarmL.002
+        weight: 0
+      - path: metarig/IKarmR.001
+        weight: 0
+      - path: metarig/IKarmR.002
+        weight: 0
+      - path: metarig/metarig|hips
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck/metarig|head
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L/metarig|f_index.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L/metarig|thumb.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R/metarig|f_index.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R/metarig|thumb.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L/metarig|foot.L.001
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R/metarig|foot.R.001
+        weight: 1
+      - path: rifle
+        weight: 0
+      - path: root
+        weight: 0
+      - path: root/ik_footL
+        weight: 0
+      - path: root/ik_footR
+        weight: 0
+      - path: root/IKarmL
+        weight: 0
+      - path: root/IKarmR
+        weight: 0
+      - path: soldierMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: throwGrenade
+      takeName: Scene
+      firstFrame: 212
+      lastFrame: 221
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grenade
+        weight: 0
+      - path: gun
+        weight: 0
+      - path: metarig
+        weight: 1
+      - path: metarig/IKarmL.001
+        weight: 0
+      - path: metarig/IKarmL.002
+        weight: 0
+      - path: metarig/IKarmR.001
+        weight: 0
+      - path: metarig/IKarmR.002
+        weight: 0
+      - path: metarig/metarig|hips
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|neck/metarig|head
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|f_index.01.L/metarig|f_index.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.L/metarig|upper_arm.L/metarig|forearm.L/metarig|hand.L/metarig|palm.01.L/metarig|thumb.01.L/metarig|thumb.02.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|f_index.01.R/metarig|f_index.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|spine/metarig|chest/metarig|shoulder.R/metarig|upper_arm.R/metarig|forearm.R/metarig|hand.R/metarig|palm.01.R/metarig|thumb.01.R/metarig|thumb.02.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.L/metarig|shin.L/metarig|foot.L/metarig|foot.L.001
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R
+        weight: 1
+      - path: metarig/metarig|hips/metarig|thigh.R/metarig|shin.R/metarig|foot.R/metarig|foot.R.001
+        weight: 1
+      - path: rifle
+        weight: 0
+      - path: root
+        weight: 0
+      - path: root/ik_footL
+        weight: 0
+      - path: root/ik_footR
+        weight: 0
+      - path: root/IKarmL
+        weight: 0
+      - path: root/IKarmR
+        weight: 0
+      - path: soldierMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: metarig|hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|foot.L.001
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|foot.R.001
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|thumb.01.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|thumb.02.L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|f_index.01.L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|f_index.02.L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|thumb.01.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|thumb.02.R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|f_index.01.R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: metarig|f_index.02.R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: sgtBolt4Merged(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: grenade
+      position: {x: .00824990869, y: 1.48857641, z: 1.40133011}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gun
+      position: {x: -1.26071453, y: 1.03640854, z: .394466996}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: metarig
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: metarig|hips
+      position: {x: -2.32830644e-10, y: .0824861676, z: .64436996}
+      rotation: {x: .838297367, y: -.00989210047, z: .00952601619, w: .545040369}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: metarig|spine
+      position: {x: -2.18278728e-10, y: .1609357, z: 2.34722393e-08}
+      rotation: {x: -.159455523, y: -.00239372067, z: -.0261328742, w: .986856282}
+      scale: {x: 1, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: metarig|chest
+      position: {x: 2.24099495e-09, y: .172717974, z: -6.48651621e-09}
+      rotation: {x: -.0778083801, y: -.000998392352, z: .0125259785, w: .996889174}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: metarig|neck
+      position: {x: 4.36557457e-10, y: .192291752, z: .000210866478}
+      rotation: {x: .167145401, y: 1.69556336e-09, z: -3.64087843e-10, w: .985932291}
+      scale: {x: .99999994, y: .999999523, z: .999999523}
+      transformModified: 1
+    - name: metarig|head
+      position: {x: 1.74622983e-10, y: .131758839, z: 8.96397978e-09}
+      rotation: {x: -.138322383, y: -1.34724054e-09, z: 1.62494809e-10, w: .990387321}
+      scale: {x: 1.00000012, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: metarig|shoulder.L
+      position: {x: -.242827937, y: .286794275, z: .0856656432}
+      rotation: {x: -.504867494, y: .43350637, z: .413800359, w: .62124902}
+      scale: {x: .999999821, y: .999999762, z: .999999642}
+      transformModified: 1
+    - name: metarig|upper_arm.L
+      position: {x: .0045552887, y: .264379919, z: .0010668654}
+      rotation: {x: -.0343379267, y: .724284768, z: -.160679281, w: -.66963768}
+      scale: {x: .999999583, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: metarig|forearm.L
+      position: {x: 2.42143869e-08, y: .376506269, z: 1.49011612e-08}
+      rotation: {x: -.0391408503, y: -.0528172888, z: .0186918806, w: -.997661769}
+      scale: {x: 1.0000006, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: metarig|hand.L
+      position: {x: 2.98023224e-08, y: .251099229, z: 0}
+      rotation: {x: .148303941, y: .692550898, z: -.0911840498, w: -.700046182}
+      scale: {x: .999999881, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: metarig|palm.01.L
+      position: {x: -.00172290951, y: .0668419227, z: -.00144880451}
+      rotation: {x: .0904942453, y: .00339504983, z: .0993861482, w: -.99091959}
+      scale: {x: .999999762, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: metarig|f_index.01.L
+      position: {x: 5.58793545e-09, y: .0942978039, z: 7.4505806e-08}
+      rotation: {x: .057926666, y: -.067147322, z: .0373703428, w: .995358884}
+      scale: {x: .999999762, y: .999999404, z: .999999583}
+      transformModified: 1
+    - name: metarig|f_index.02.L
+      position: {x: -9.31322575e-10, y: .0809669644, z: 6.98491931e-09}
+      rotation: {x: -.00327048823, y: .0101140272, z: -.0607255362, w: .998097956}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: metarig|thumb.01.L
+      position: {x: .104170397, y: .0280865803, z: .00667110458}
+      rotation: {x: -.110346347, y: -.597269714, z: -.271995097, w: .746398866}
+      scale: {x: .999999583, y: .999999642, z: 1}
+      transformModified: 1
+    - name: metarig|thumb.02.L
+      position: {x: 9.31322575e-10, y: .068033576, z: -8.38190317e-09}
+      rotation: {x: .00822159462, y: -.0688280687, z: -.0228455327, w: .997333109}
+      scale: {x: .99999994, y: .999999821, z: 1.00000012}
+      transformModified: 1
+    - name: metarig|shoulder.R
+      position: {x: .239584729, y: .292037249, z: .0859718323}
+      rotation: {x: -.476767957, y: -.371709526, z: -.462320983, w: .648678422}
+      scale: {x: .999999881, y: 1, z: .99999994}
+      transformModified: 1
+    - name: metarig|upper_arm.R
+      position: {x: -.00590921752, y: .241786942, z: -4.38708812e-05}
+      rotation: {x: .0580288135, y: .658371925, z: -.147552997, w: .735803783}
+      scale: {x: .999999702, y: .999999583, z: .999999762}
+      transformModified: 1
+    - name: metarig|forearm.R
+      position: {x: 9.45292413e-08, y: .352084756, z: -2.98023224e-08}
+      rotation: {x: -.0404157601, y: .0340963379, z: -.0236437563, w: -.998321116}
+      scale: {x: .999999821, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: metarig|hand.R
+      position: {x: -1.16415322e-09, y: .285005301, z: 5.21540642e-08}
+      rotation: {x: .0578410365, y: -.708281457, z: -.0382833704, w: -.702514172}
+      scale: {x: .999999821, y: 1.00000048, z: 1.00000048}
+      transformModified: 1
+    - name: metarig|palm.01.R
+      position: {x: .000628050417, y: .0753774717, z: .000501096481}
+      rotation: {x: -.0701036528, y: .0332389064, z: -.0599095896, w: .995184183}
+      scale: {x: .999999702, y: .999999523, z: .999999762}
+      transformModified: 1
+    - name: metarig|f_index.01.R
+      position: {x: 3.25962901e-09, y: .10523919, z: 7.47386366e-08}
+      rotation: {x: .0474914052, y: .0549709052, z: .0802993774, w: .994120181}
+      scale: {x: .999999702, y: .999999821, z: 1}
+      transformModified: 1
+    - name: metarig|f_index.02.R
+      position: {x: 1.86264515e-08, y: .076503098, z: 2.30502337e-08}
+      rotation: {x: -.0446867049, y: .00132326095, z: -.00209287601, w: .998998046}
+      scale: {x: .999999881, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: metarig|thumb.01.R
+      position: {x: -.0557405725, y: .0165270735, z: -.000806680415}
+      rotation: {x: -.16483666, y: .520760834, z: .327733636, w: .770861745}
+      scale: {x: .99999994, y: .999999583, z: .999999881}
+      transformModified: 1
+    - name: metarig|thumb.02.R
+      position: {x: -4.47034836e-08, y: .0876784697, z: 2.60770321e-08}
+      rotation: {x: -.00646088924, y: .105464108, z: .0621533841, w: .992457867}
+      scale: {x: .999999821, y: 1.00000024, z: 1.00000036}
+      transformModified: 1
+    - name: metarig|thigh.L
+      position: {x: -.133234084, y: .061284177, z: .00726697501}
+      rotation: {x: -.945408165, y: .0903427601, z: -.000759398506, w: -.31311515}
+      scale: {x: .999999642, y: .999999464, z: .999999702}
+      transformModified: 1
+    - name: metarig|shin.L
+      position: {x: 2.23517418e-08, y: .315035492, z: -1.11758709e-08}
+      rotation: {x: .32953319, y: -.0037962019, z: -.116697907, w: .936896563}
+      scale: {x: 1.00000036, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: metarig|foot.L
+      position: {x: -4.94765118e-10, y: .415660769, z: -6.05359674e-09}
+      rotation: {x: .84642905, y: .0242301319, z: -.0355823524, w: -.530758679}
+      scale: {x: 1, y: 1.00000024, z: 1.00000048}
+      transformModified: 1
+    - name: metarig|foot.L.001
+      position: {x: -6.51925802e-09, y: .238983661, z: 1.58324838e-08}
+      rotation: {x: -.000465887948, y: .999507427, z: .0313809365, w: -4.05880673e-05}
+      scale: {x: .999999881, y: .999999583, z: 1.00000024}
+      transformModified: 1
+    - name: metarig|thigh.R
+      position: {x: .149115086, y: .0456865206, z: .0122742038}
+      rotation: {x: -.945688248, y: -.0279311743, z: -.000348435773, w: -.323872596}
+      scale: {x: .999999762, y: .999998748, z: .999999046}
+      transformModified: 1
+    - name: metarig|shin.R
+      position: {x: -2.09547579e-08, y: .298056245, z: -1.86264515e-09}
+      rotation: {x: .35212639, y: -.00248279376, z: .0390664935, w: .935133517}
+      scale: {x: .99999994, y: 1.00000048, z: .999999821}
+      transformModified: 1
+    - name: metarig|foot.R
+      position: {x: -7.4505806e-09, y: .419422388, z: -4.19095159e-09}
+      rotation: {x: .853236437, y: -.0012990447, z: -.0102906907, w: -.521421134}
+      scale: {x: 1.00000012, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: metarig|foot.R.001
+      position: {x: 1.218541e-08, y: .238992751, z: -5.41331246e-09}
+      rotation: {x: -.000814777217, y: .999507666, z: .0313662514, w: -4.91626852e-05}
+      scale: {x: 1.00000012, y: 1.00000048, z: 1.00000036}
+      transformModified: 1
+    - name: rifle
+      position: {x: -.461784124, y: 1.31933463, z: .386325777}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: soldierMesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 1
+    foreArmTwist: 1
+    upperLegTwist: 1
+    legTwist: 1
+    armStretch: 1
+    legStretch: 1
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 

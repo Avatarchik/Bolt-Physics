@@ -1,0 +1,6 @@
+<linker>
+  <assembly fullname="udpkit" preserve="all"/>
+  <assembly fullname="udpkit.common" preserve="all"/>
+  <assembly fullname="bolt" preserve="all"/>
+  <assembly fullname="bolt.user" preserve="all"/>
+</linker>

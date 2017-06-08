@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 95238504, guid: 5b00bf8b25851d440940a40ec23344f4, type: 3}
+  m_Name: BoltRuntimeSettings
+  m_EditorClassIdentifier: 
+  _config:
+    framesPerSecond: 60
+    packetSize: 1200
+    packetMaxEventSize: 512
+    maxEntityPriority: 65536
+    maxPropertyPriority: 2048
+    scopeMode: 0
+    logTargets: 0
+    disableDejitterBuffer: 0
+    clientSendRate: 3
+    clientDejitterDelay: 6
+    clientDejitterDelayMin: 3
+    clientDejitterDelayMax: 9
+    serverSendRate: 3
+    serverDejitterDelay: 6
+    serverDejitterDelayMin: 3
+    serverDejitterDelayMax: 9
+    serverConnectionLimit: 32
+    serverConnectionAcceptMode: 0
+    commandDejitterDelay: 3
+    commandQueueSize: 60
+    commandDelayAllowed: 12
+    commandRedundancy: 6
+    commandPingMultiplier: 1.25
+    useNetworkSimulation: 1
+    simulatedLoss: 0.02
+    simulatedPingMean: 100
+    simulatedPingJitter: 10
+    simulatedRandomFunction: 0
+    connectionTimeout: 10000
+    connectionRequestTimeout: 500
+    connectionRequestAttempts: 20
+  debugClientCount: 1
+  debugStartPort: 54321
+  debugStartMapName: Level1
+  debugPlayAsServer: 1
+  showDebugInfo: 0
+  overrideTimeScale: 1
+  logUncaughtExceptions: 0
+  clientCanInstantiateAll: 1
+  debugEditorMode: 1
+  consoleToggleKey: 9
+  consoleVisibleByDefault: 1
+  compilationWarnLevel: 4
+  editorSkin: 4
+  scopeModeHideWarningInGui: 0
+  showHelpButtons: 0
+  masterServerGameId: 09A20926-601A-4EF4-BFEE-374761B0D2A5
+  masterServerEndPoint: 159.8.0.207:24000
+  masterServerAutoConnect: 0
+  masterServerAutoDisconnect: 1
+  showBoltEntityHints: 0
+  serializeProjectAsText: 0
+  photonAppId: 67d57778-0998-44f2-8c74-8f9544bda46e
+  photonUsePunch: 1
+  photonCloudRegionIndex: 0
+  photonUseOnPremise: 0
+  photonOnPremiseIpAddress: 127.0.0.1
