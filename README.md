@@ -15,7 +15,7 @@ I needed a solution for my game Party Panic that would allow for a few things:
 
 Quick rundown of how it works;
 There's two main steps. 
-1) Rewind/Resim local physics loop from the last server validated physics frame
+1) Rewind/Resim local physics from the last server validated physics frame
 2) The main physics loop. This loop should only call one step every frame, this is the up-to-date realtime physics simulation. If we were to remove step (1), it would behave like unity was auto-stepping physics normally (mostly)
 
 Starting with step (2).  
