@@ -47,7 +47,7 @@ We then broadcast out events to all rewindables notifying them of their new (val
 Then we Resimulate from validationFrame->currentFrame to make sure the server player is seeing the most recent versio of the world.  During this resimulation we also reapply any stored local inputs that happened on these frames.
 
 Step (1) deals with the client resimulating itself when a correction is needed (the local simulation has drifted too far from where the server thinks it should be)
-When we receive a validation event for a rewindable it
+When we receive a validation event for a rewindable it:
 1)store the validated state (pos/rot/vel/avel) in a frame-stamped list.  state data in this list is preferred over the local simulated state list.
 2) Since we've already locally simulated this frame and stored it's state we can compare the validated state against the locally simulated state, even though they both happened 'in the past'.
 3) Here we can compare the states and see how different they are, and decide if they are too different and need a resim to fix (using the validated data as a starting point for the resim)
