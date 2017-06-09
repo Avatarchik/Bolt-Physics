@@ -17,7 +17,7 @@ public class NetworkedBubbleControllerBehaviour : Bolt.EntityBehaviour<INetworke
     public static Dictionary<int, NetworkedBubbleControllerBehaviour> players = new Dictionary<int, NetworkedBubbleControllerBehaviour>();
     public bool receivedFirstState = false;
 
-    public Dictionary<int, PhysicsInputState> localInputs = new Dictionary<int, PhysicsInputState>();
+    public Dictionary<int, PhysicsInputState> localInputs = new Dictionary<int, PhysicsInputState>(); //this needs to be cleaned
 
     public override void Attached() {
         base.Attached();
@@ -161,5 +161,16 @@ public class NetworkedBubbleControllerBehaviour : Bolt.EntityBehaviour<INetworke
         } else {
             localInputs.Add(e.frame, new PhysicsInputState() { onlineIndex = e.onlineIndex, inputDir = e.inputDir, dash = e.dash, frame = e.frame });
         }
+    }
+
+    //lazyyyyyy
+    public void CleanupOldInputs(int frame) {
+        Dictionary<int, PhysicsInputState> temp = new Dictionary<int, PhysicsInputState>();
+        foreach(KeyValuePair<int, PhysicsInputState> d in localInputs) {
+            if(d.Value.frame >= frame) {
+                temp.Add(d.Key, d.Value);
+            }
+        }
+        localInputs = temp;
     }
 }

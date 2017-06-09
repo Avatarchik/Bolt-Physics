@@ -173,9 +173,9 @@ public class PhysicsManager : MonoBehaviour {
     public void SyncValidated(int frame) {
         for(int i = 0; i < rewindables.Count; i++) {
             if(rewindables[i] != null) {
-                if(rewindables[i].validatedStates.ContainsKey(frame)) {
+                if(rewindables[i].validatedStateFrame == frame) {
                     //we have a validated state for this frame, so snap to it
-                    rewindables[i].SetFromState(rewindables[i].validatedStates[frame]);
+                    rewindables[i].SetFromState(rewindables[i].validatedStateData);
                 }
             }
         }
@@ -347,8 +347,21 @@ public class PhysicsManager : MonoBehaviour {
         }
 
         DLog.Log("Validated up to frame: " + frame);
-        BroadcastValidation(currentFrame);
 
+        //clean up any old stored inputs (before currentFrame), we don't need them anymore, and don't want
+        //the list to build up too big when simulation runs for a while
+        List<int> keysToDestroy = new List<int>();
+        foreach(KeyValuePair<int, List<PhysicsInputState>> k in playerInputs) {
+            if(k.Key < currentFrame) {
+                keysToDestroy.Add(k.Key);
+            }
+        }
+
+        for(int i = 0; i < keysToDestroy.Count; i++) {
+            playerInputs.Remove(keysToDestroy[i]);
+        }
+
+        BroadcastValidation(currentFrame);
         ResimToCurrent();
         //need to resim to current time now
 

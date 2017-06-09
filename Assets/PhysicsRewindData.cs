@@ -6,13 +6,13 @@ using System.Linq;
 public class PhysicsRewindData : MonoBehaviour {
 
     //store this as frames, because that's how bolt does it?
-    public List<RigidbodyData> rigidbodyRewindData = new List<RigidbodyData>();
     public SortedDictionary<int, RigidbodyData> data = new SortedDictionary<int, RigidbodyData>(); //SortedDict so we can get data.Keys.First() to pop the oldest entry out, while still indexing by frame for quick access
     public int storeEveryFrame = 1; //1 - store every frame, 2 - store every second frame, etc..
     private int storeEveryFrameCounter = 0;
 
     public int dataCount = 0;
     public Vector2 dataRange = new Vector2();
+    public int validatedStatesCount = 0;
 
     /// <summary>
     /// -1 = no max
@@ -25,7 +25,11 @@ public class PhysicsRewindData : MonoBehaviour {
     //but if we want to scale this to lots of physics instead of 4, we need a way to resim from the newest frame at all physics share.
     //or when we start from the oldest and every step check to see if each physics has a newer validated, and just snap to it
     //that way when we run out of validated states and need to sim that body will start where he was last validated?
-    public Dictionary<int, RigidbodyData> validatedStates = new Dictionary<int, RigidbodyData>();
+    //public Dictionary<int, RigidbodyData> validatedStates = new Dictionary<int, RigidbodyData>();
+    //public KeyValuePair<int, RigidbodyData> validatedState = new KeyValuePair<int, RigidbodyData>(-1, null);//we only need the latest validated state
+    public int validatedStateFrame;
+    public RigidbodyData validatedStateData;
+
     public BoltEntity entity;
 
     public int currentFramePosition = 0;
@@ -44,11 +48,12 @@ public class PhysicsRewindData : MonoBehaviour {
     /// </summary>
 	void FixedUpdate () {
         //so we can see values in the inspector
-        dataCount = data.Count;
-        if(dataCount > 0) {
-            dataRange.x = data.Keys.First();
-            dataRange.y = data.Keys.Last();
-        }
+        //dataCount = data.Count;
+        //if(dataCount > 0) {
+        //    dataRange.x = data.Keys.First();
+        //    dataRange.y = data.Keys.Last();
+        //}
+        //validatedStatesCount = validatedStates.Count;
         //--
         //call store states through the PhysicsManager instead
 	}
@@ -143,69 +148,60 @@ public class PhysicsRewindData : MonoBehaviour {
             //was happening with 1000ms pings
             DLog.Log("ReceivedValidationEvent for a frame that hasn't been simulated locally yet??");
         }
-        if(validatedStates.ContainsKey(e.frame)) {
-            //already have a validation for this frame?
-            //shouldn't ever happen but ok
-            //Debug.LogError("Already have a validation for this frame..");
 
-        } else {
-            validatedStates.Add(e.frame, new RigidbodyData() {
-                frame = e.frame,
-                position = e.position,
-                rotation = e.rotation,
-                velocity = e.velocity,
-                angularVelocity = e.angularVelocity
-            });
+        //we can go through and discard any state date older than this validation
+       
 
-            ////when we receive a validation, check that against our local - stored values to see if our past frame was close enough to it.
-            ////if we are not, we need to resync and resim.
+        validatedStateFrame = e.frame;
+        validatedStateData = new RigidbodyData() {
+            frame = e.frame,
+            position = e.position,
+            rotation = e.rotation,
+            velocity = e.velocity,
+            angularVelocity = e.angularVelocity
+        };
+        //probably a better way to do this. Lazy
+        SortedDictionary<int, RigidbodyData> temp = new SortedDictionary<int, RigidbodyData>();
+        foreach(KeyValuePair<int, RigidbodyData> d in data) {
+            if(d.Value.frame >= e.frame) {
+                temp.Add(d.Key, d.Value);
+            }
+        }
+        data = temp;
 
-            ////turning this on here just applies the states late as we get them, without any simulation
-            //SetFromState(validatedStates[e.frame]);
+        NetworkedBubbleControllerBehaviour c = this.GetComponent<NetworkedBubbleControllerBehaviour>(); //this should be generalized ControllableRigidbody
+        if(c != null) {
+            c.CleanupOldInputs(e.frame);
+        }
 
-            //do we even have a local frame data for this frame?
-            bool hasLocalData = data.ContainsKey(e.frame);
-            if(hasLocalData) {
-                //is localData CLOSE to validatedData?
-                if(StatesMatch(data[e.frame], validatedStates[e.frame])) {
-                    //don't do anythign, we're mostly accurate ?
-                    //if we ARE close though, could we not just snap anyways because
-                    //1) We're close, so it won't be an abrupt snap
-                    //2) It will make the next step be more likely to be similar
-                    //like fixing the small drifts rather than fixing the big ones every once in a while?
-                    //DLog.Log("PRD::RecValidation - Close enough!");
-                    PhysicsManager.instance.NeedsLocalResim(e.frame);
-                } else {
-                    //too far apart, fix this.
-                    DLog.Log("PRD::RecValidation - states too far apart, marking for resim");
-                    PhysicsManager.instance.NeedsLocalResim(e.frame);
-                }
+        ////when we receive a validation, check that against our local - stored values to see if our past frame was close enough to it.
+        ////if we are not, we need to resync and resim.
+
+        ////turning this on here just applies the states late as we get them, without any simulation
+        //SetFromState(validatedStates[e.frame]);
+
+        //do we even have a local frame data for this frame?
+        bool hasLocalData = data.ContainsKey(e.frame);
+        if(hasLocalData) {
+            //is localData CLOSE to validatedData?
+            if(StatesMatch(data[e.frame], validatedStateData)) {
+                //don't do anythign, we're mostly accurate ?
+                //if we ARE close though, could we not just snap anyways because
+                //1) We're close, so it won't be an abrupt snap
+                //2) It will make the next step be more likely to be similar
+                //like fixing the small drifts rather than fixing the big ones every once in a while?
+                //DLog.Log("PRD::RecValidation - Close enough!");
+                PhysicsManager.instance.NeedsLocalResim(e.frame);
             } else {
-                DLog.Log("PRD::RecValidation - don't have frame data, marking for resim");
-                //don't even have data, so we need to resim anyways.
+                //too far apart, fix this.
+                DLog.Log("PRD::RecValidation - states too far apart, marking for resim");
                 PhysicsManager.instance.NeedsLocalResim(e.frame);
             }
-            ////RigidbodyData localFrameData = GetLocalDataAtFrame(e.frame);
-            ////if(localFrameData == null) {
-            ////    DLog.Log("--------------- marking for resim because LocalFrameData is null at frame: " + e.frame);
-            ////    assume they don't match
-            ////    PhysicsManager.instance.needsLocalResim = true;
-            ////    PhysicsManager.instance.needsResimFrom = e.frame;
-            ////    PhysicsManager.instance.t1.text += " -localFrameData null, marking for resim";
-
-            ////} else {
-            ////    we can check these states
-            ////    if(!StatesMatch(validatedStates[e.frame], localFrameData)) {
-            ////        DLog.Log("----------- States do not match, marking for a local resim");
-            ////        PhysicsManager.instance.needsLocalResim = true;
-            ////        PhysicsManager.instance.needsResimFrom = e.frame;
-            ////        PhysicsManager.instance.t1.text += " - states too different, marking for resim";
-
-            ////    } else {
-            ////        PhysicsManager.instance.t1.text += " - states match close enough";
-
-            ////    }
-            ////}
+        } else {
+            DLog.Log("PRD::RecValidation - don't have frame data, marking for resim");
+            //don't even have data, so we need to resim anyways.
+            PhysicsManager.instance.NeedsLocalResim(e.frame);
+            
         }
     }
 
@@ -221,15 +217,6 @@ public class PhysicsRewindData : MonoBehaviour {
         } else {
             return false;
         }
-    }
-
-    public RigidbodyData GetLocalDataAtFrame(int frame) {
-        for(int i = 0; i < rigidbodyRewindData.Count; i++) {
-            if(rigidbodyRewindData[i].frame == frame) {
-                return rigidbodyRewindData[i];
-            }
-        }
-        return null;
     }
 
     public void OnDestroy() {
